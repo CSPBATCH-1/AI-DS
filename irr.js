@@ -10,6 +10,9 @@ const images = [
   "irr21.jpg",
   "irr22.jpg",
   "irr23.jpg",
+  "group1.jpg",
+  "group2.jpg",
+  "group3.jpg",
 ];
 
 let currentIndex = 0;
