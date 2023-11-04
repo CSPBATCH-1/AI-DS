@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMMUNITY SERVICE PROJECT</title>
+  
+  <style type="text/css">
+.btn {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  position:absolute;
+}
+header{
+  font-size: 60px;
+  font-family: arial sans-serif;
+  color:orangered;
+  text-align: center;
+  margin-top: 100px;
+}
+.container{
+  position:relative;
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  padding-right: 60px;
+}
+body{
+  background-image: url("ind1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.main{
+  align-content: flex-end;
+}
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .btn {
+   width:150px;
+   font-size: 14px;
+   position: static;
+
+  }
+  .container{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    padding-left: 80px; 
+  }
+  header{
+    font-size: 40px;
+  }
+}
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>COMMUNITY SERVICE PROJECT</header>
+  <div class="container">
+    <a href="home.html">
+  <button class="btn">Click Me</button></a>
+</div>
+</body>
+</html>
