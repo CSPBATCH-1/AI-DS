@@ -9,10 +9,8 @@ const images = [
   "pds11.jpg",
   "pds12.jpg",
   "pds13.jpg",
-  "pds14.jpg",
-  "group1.jpg",
-  "group2.jpg",
-  "group3.jpg",
+  "pds15.jpg",
+
 ];
 
 let currentIndex = 0;
